@@ -2,18 +2,64 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>하늘색 구름</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+
+    <title>하늘색 구름</title>
+
+    <style>
+        :root {
+            --div-main-color : skyblue;
+        }
+
+
+
+        body {
+            font-family: 'Jua', sans-serif;
+        }
+
+        .main {
+            background-color: tomato;
+        }
+
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: var(--div-main-color);
+            height: 100%;
+            width: 300px;
+        }
+
+        .nav-container {
+
+        }
+    </style>
 </head>
 <body>
-    <header>
-
-    </header>
-    <nav>
-
+    <!--Navigation-->
+    <nav class="nav">
+        <div class="nav-picture">
+            test
+        </div>
+        <div class="navbar">
+            <ul class="nav-container">
+                <li class="nav-item">test</li>
+                <li class="nav-item">test</li>
+                <li class="nav-item">test</li>
+                <li class="nav-item">test</li>
+            </ul>
+        </div>
     </nav>
     <main>
-        Test
+        <div class="main">
+            Test
+        </div>
+
     </main>
     <footer>
 
