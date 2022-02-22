@@ -35,6 +35,8 @@ body {
 .header-text {
     font-size: 30px;
     text-align: center;
+    transition: 3s;
+    opacity: 0;
 }
 /*Test*/
 .main {
