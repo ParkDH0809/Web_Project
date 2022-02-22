@@ -38,36 +38,11 @@ body {
     transition: 3s;
     opacity: 0;
 }
+
 /*Test*/
 .main {
     background-color: var(--div-main-color);
     height: 1000px;
 }
-
-/*.nav {*/
-/*    background-color: var(--div-main-color);*/
-/*    position: fixed;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    height: 100%;*/
-/*    width: 250px;*/
-/*}*/
-
-/*.nav-bar {*/
-/*    position: relative;*/
-/*    top: 250px;*/
-/*    left: 50px;*/
-/*}*/
-
-/*.nav-item a {*/
-/*    display: block;*/
-/*    height: 30px;*/
-/*    line-height: 30px;*/
-/*}*/
-/*.nav-picture {*/
-/*    height: 100px;*/
-/*    width: 100px;*/
-/*    border: 0.5rem solid rgba(255, 255, 255, 0.2);*/
-/*}*/
 
 
