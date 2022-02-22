@@ -1,0 +1,55 @@
+:root {
+    --div-main-color : skyblue;
+}
+
+body {
+    font-family: 'Jua', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.rounded-circle {
+    border-radius: 50%;
+}
+
+
+/*header*/
+.header-div {
+    background-color: var(--div-main-color);
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/*Test*/
+.main {
+    background-color: tomato;
+}
+
+/*.nav {*/
+/*    background-color: var(--div-main-color);*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    height: 100%;*/
+/*    width: 250px;*/
+/*}*/
+
+/*.nav-bar {*/
+/*    position: relative;*/
+/*    top: 250px;*/
+/*    left: 50px;*/
+/*}*/
+
+/*.nav-item a {*/
+/*    display: block;*/
+/*    height: 30px;*/
+/*    line-height: 30px;*/
+/*}*/
+/*.nav-picture {*/
+/*    height: 100px;*/
+/*    width: 100px;*/
+/*    border: 0.5rem solid rgba(255, 255, 255, 0.2);*/
+/*}*/
+
+
